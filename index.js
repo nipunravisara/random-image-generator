@@ -6,8 +6,8 @@ const { logger } = require('./utils/logger');
 
 const init = async () => {
   const {
-    firstImageId = 2,
-    secondImageId = 1,
+    firstImageId = 44,
+    secondImageId = 55,
     width = 400,
     height = 500,
   } = args;

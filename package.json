@@ -19,7 +19,6 @@
   "dependencies": {
     "@mapbox/blend": "^2.0.1",
     "axios": "^0.21.3",
-    "cli-spinner": "^2.6.0",
     "eslint-config-prettier": "^8.3.0",
     "minimist": "^1.2.5",
     "prettier": "^2.3.2"
