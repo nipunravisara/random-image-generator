@@ -7,7 +7,7 @@ This repository contains a simple image generation tool written in node and usin
 Clone this repository.
 
 ```sh
-git clone https://github.com/nipunravisara/cat-card.git
+git clone https://github.com/nipunravisara/random-image-generator.git
 ```
 
 Move into projet directory.
