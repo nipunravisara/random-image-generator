@@ -42,3 +42,13 @@ yarn start  --firstImageId=20  --secondImageId=50 --width=100 --height=100
 | `secondImageId` | `number` | ID of the second image you want to use.                                               |
 | `width`         | `number` | Should be a positive integer.                                                         |
 | `height`        | `number` | Should be a positive integer.                                                         |
+
+## Test project
+
+Testings fo main functionalites are written in `jest` library.
+
+Run test
+
+```sh
+yarn test
+```

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { logger } = require('./logger');
+const logger = require('./logger');
 
 const imageApi = axios.create({
   baseURL: 'https://picsum.photos',
@@ -8,7 +8,7 @@ const imageApi = axios.create({
 
 const fetchRandomImage = async ({ imageId, width, height }) => {
   logger(`→ Downloading image ${imageId}`);
-
+  console.log(11111111111111);
   try {
     // Fetch random image
     const response = await imageApi.get(`/id/${imageId}/${width}/${height}`, {
@@ -20,6 +20,4 @@ const fetchRandomImage = async ({ imageId, width, height }) => {
   }
 };
 
-module.exports = {
-  fetchRandomImage,
-};
+module.exports = fetchRandomImage;

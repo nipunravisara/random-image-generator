@@ -1,8 +1,8 @@
 const args = require('minimist')(process.argv.slice(2));
-const { fetchRandomImage } = require('./utils/fetchRandomImage');
-const { blendImage } = require('./utils/blendImage');
-const { saveImage } = require('./utils/saveImage');
-const { logger } = require('./utils/logger');
+const fetchRandomImage = require('./utils/fetchRandomImage');
+const bindImages = require('./utils/bindImages');
+const saveImage = require('./utils/saveImage');
+const logger = require('./utils/logger');
 
 const init = async () => {
   const {
@@ -26,8 +26,8 @@ const init = async () => {
       height,
     });
 
-    // Get binded images
-    const bindedImage = await blendImage(
+    // Get binded image
+    const bindedImage = await bindImages(
       firstImage,
       secondImage,
       width,

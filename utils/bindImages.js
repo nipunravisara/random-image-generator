@@ -1,8 +1,8 @@
 const { promisify } = require('util');
 const blend = promisify(require('@mapbox/blend'));
-const { logger } = require('./logger');
+const logger = require('./logger');
 
-const blendImage = async (image1, image2, width, height) => {
+const bindImages = async (image1, image2, width, height) => {
   logger('→ Binding images...');
 
   try {
@@ -25,6 +25,4 @@ const blendImage = async (image1, image2, width, height) => {
   }
 };
 
-module.exports = {
-  blendImage,
-};
+module.exports = bindImages;
