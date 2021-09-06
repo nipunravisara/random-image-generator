@@ -43,4 +43,5 @@ const init = async () => {
   }
 };
 
+// Start program
 init();

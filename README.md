@@ -34,6 +34,8 @@ or with arguments
 yarn start  --firstImageId=20  --secondImageId=50 --width=100 --height=100
 ```
 
+after a successful execution, program will create an `image` directory to save images.
+
 ## Arguments
 
 | Argument        | Type     | Description                                                                           |
