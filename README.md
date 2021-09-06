@@ -13,7 +13,7 @@ git clone https://github.com/nipunravisara/random-image-generator.git
 Move into projet directory.
 
 ```sh
-cd cat-card
+cd random-image-generator
 ```
 
 Install dependencies.
